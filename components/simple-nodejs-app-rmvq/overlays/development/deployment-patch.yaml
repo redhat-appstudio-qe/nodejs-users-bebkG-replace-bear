@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: simple-nodejs-app-rmvq
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-vnsz-tenant/nodejs-users/simple-nodejs-app-rmvq@sha256:4276737a9b321595196f218348f91d36cf7000d4c0933961232346e7851eacc5
+        name: my-nodejs
+        resources: {}
+status: {}
