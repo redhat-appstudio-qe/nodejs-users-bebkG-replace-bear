@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: simple-nodejs-app-rmvq
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-vnsz-tenant/nodejs-users/simple-nodejs-app-rmvq@sha256:4276737a9b321595196f218348f91d36cf7000d4c0933961232346e7851eacc5
         name: my-nodejs
         ports:
         - containerPort: 3001
